@@ -116,13 +116,13 @@ footer {
 .banner-title {
   /* max-width: 582px; */
   font-size: 3.25rem;
-  line-height: 4rem;
+  line-height: 3rem;
   font-weight: 700;
 }
 .section-description {
   max-width: 500px;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   margin: 1rem 0;
 }
 .btn-primary {
@@ -196,7 +196,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  margin: 50px auto 50px auto;
+  margin: 20px auto 50px auto;
 }
 .section-title {
   font-size: 1.75rem;
