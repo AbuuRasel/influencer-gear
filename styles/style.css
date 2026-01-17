@@ -52,6 +52,7 @@ header {
 }
 /* banner related style */
 .banner {
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
@@ -87,17 +88,13 @@ header {
 }
 
 .banner-right-image {
-  max-width: 550px;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  max-width: 480px;
+  background-image: url(../images/Circle\ design.svg);
+  margin: 50px 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .banner-bg {
   width: 100%;
 }
-.main-product {
-  position: absolute;
-  max-width: 475px;
-}
-
