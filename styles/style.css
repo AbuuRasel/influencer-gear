@@ -62,13 +62,13 @@ header {
 .banner-title {
   /* max-width: 582px; */
   font-size: 3.25rem;
-  line-height: 3rem;
+  line-height: 4rem;
   font-weight: 700;
 }
 .section-description {
   max-width: 500px;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   margin: 1rem 0;
 }
 .btn-primary {
@@ -97,4 +97,30 @@ header {
 }
 .banner-bg {
   width: 100%;
+}
+.main-product {
+  max-width: 440px;
+  width: 100%;
+}
+/* company logos */
+.companies {
+  max-width: 1110px;
+  width: 100%;
+  margin: 30px auto 0 auto;
+  padding: 30px 60px;
+  box-shadow:
+    0 -1px 0 rgba(0, 0, 0, 0.06),
+    0 1px 0 rgba(0, 0, 0, 0.06);
+}
+.logo-container {
+  max-width: 986px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.company-logo {
+  max-width: 84px;
+  width: 100%;
+  margin: 0px auto;
 }
