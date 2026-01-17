@@ -21,6 +21,10 @@ main {
   margin: 30px auto;
   padding: 30px;
 }
+footer {
+  max-width: 100%;
+  margin: 0 auto;
+}
 .display-flex {
   display: flex;
 }
@@ -86,7 +90,7 @@ main {
 .brand {
   /* max-width: 243px; */
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .item {
@@ -123,10 +127,7 @@ main {
 }
 .btn-primary {
   max-width: 198px;
-  font-size: 1rem;
   gap: 10px;
-  font-weight: bold;
-  color: white;
   background-color: #e02c6d;
   padding: 12px 24px;
   border: none;
@@ -135,6 +136,18 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+}
+.btn-primary a,
+.btn-primary-a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+}
+
+.btn-primary i,
+.btn-primary-i {
+  padding-left: 5px;
 }
 
 .banner-right-image {
@@ -193,9 +206,90 @@ main {
   text-align: center;
   margin: 80px auto 30px auto;
 }
-.see-more-btn{
+.see-more {
+  max-width: 1047px;
+  text-align: right;
+  margin: 0 auto;
+  padding: 10px;
+}
+.see-more a {
+  text-decoration: none;
   color: rgba(224, 44, 109, 0.87);
   font-size: 1rem;
+  font-weight: 700;
+}
+.see-more i {
+  color: #e02c6d;
+  margin-left: 2px;
+}
+.featured {
+  max-width: 1110px;
+  margin: 50px auto 0 auto;
+  gap: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-left-img {
+  max-width: 404px;
+  width: 100%;
+}
+
+.featured-right-content {
+  max-width: 610px;
+  text-align: left;
+}
+.featured-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+  color: #0a0826;
+}
+.featured-description {
+  max-width: 501px;
+  font-size: 1rem;
   font-weight: bold;
-  text-align: right;
+  line-height: 1.75rem;
+  color: #3a3a3a;
+  margin: 15px 0;
+}
+
+/* footer section */
+
+.footer {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0826;
+}
+.footer-section {
+  max-width: 300px;
+  margin: 50px auto;
+  color: #ffffff;
+  text-align: center;
+}
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.footer-section .p1 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  color: #d9dbe1;
+  margin: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section i {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
 }
