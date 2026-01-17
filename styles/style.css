@@ -196,7 +196,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  margin: 20px auto 50px auto;
+  margin: 50px auto 50px auto;
 }
 .section-title {
   font-size: 1.75rem;
